@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Веб-верстка фінальне завдання</title>
-    <link rel="stylesheet" href="./src/styles/reset.css">
-    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/reset.css">
+    <link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
     <header class="header-container">
@@ -20,10 +20,10 @@
     <section class="first-screen">
         <article class="first-screen-container">
             <h1 class="first-screen-header">
-                Фонд підтримки постраждалих від війни
+                Фонд <br/>підтримки<br/> постраждалих<br/> від війни
             </h1>
             <h3 class="first-screen-description">
-                Ми хочемо допомогти кожному, хто постраждав під час війни
+                Ми хочемо допомогти кожному, хто <br/> постраждав під час війни
             </h3>
             <button class="blue-button white-button">
                 Підтримати фонд
@@ -33,7 +33,7 @@
     <section class="second-screen">
         <article class="second-screen-text">
             <h2 class="second-screen-header">
-                Ми – фонд підтримки постраждалих від війни
+                Ми – фонд підтримки <br/> постраждалих від війни
             </h2>
             <h3 class="second-screen-subheader">
                 Наша мета – психологічна та гуманітарна допомога українцям
@@ -47,7 +47,7 @@
         <article class="third-screen-block">
             <div class="flex-wrapper">
                 <h3 class="block-header">
-                    Реабілітаційний центр
+                    Реабілітаційний <br/>центр
                 </h3>
                 <p clas="block-description">
                     Ми допомагаємо людям, які постраждали знайти правильне лікування. 
@@ -76,32 +76,32 @@
         </button>
     </section>
     <section class="fourth-screen">
-        <article>
+        <article class="fourth-screen-description">
             <div class="our-goal">
-            <p class="fourth-screen-paragraph">
-                Наша місія – щоб кожен українець мав можливість отримати допомогу 
-                й не залишився наодинці зі своїми проблемами
-            </p>
+                <p class="fourth-screen-paragraph">
+                    Наша місія – щоб кожен українець мав <br/> можливість отримати допомогу 
+                    й не <br/> залишився наодинці зі своїми <br/> проблемами
+                </p>
             </div>
-            <img class="fourth-screen-image" src="./src/img/Kids-Hug.png" alt = "Допомога українцям"/>
-            <img class="fourth-screen-bg" src="./src/img/SectionBgPattern.png" alt="Задній фон"/>
+                <img class="fourth-screen-bg" src="./src/img/SectionBgPattern.png" alt="Задній фон"/>
+                <img class="fourth-screen-image" src="./src/img/Kids-Hug.png" alt = "Допомога українцям"/>
         </article>
     </section>
     <section class="fiveth-screen">
-        <article class="fiveth-screen-">
+        <article class="fiveth-screen-description">
         <h2 class="fiveth-screen-header">Підтримайте нашу роботу</h2>
-        <p class="first-screen-paragraph"> Усі ваші донати йдуть саме на роботу фонду, 
+        <p class="fiveth-screen-paragraph"> Усі ваші донати йдуть саме на роботу фонду, 
             заробітні плати ми виплачуємо з коштів грантодавців
         </p>
         </article>
         <article class="our-finance-goal">
-            <p>Наша мета 10 000 000 гривень!</p>
+            <p class="our-finance-goal-paragrapgh">Наша мета 10 000 000 гривень!</p>
             <div class="live-count">
                 <p class="number-count">00</p>
                 <p class="line-count">|</p>
-                <p number-count>230</p>
+                <p class="number-count">230</p>
                 <p class="line-count">|</p>
-                <p number-count>025</p>
+                <p class="number-count">025</p>
             </div>
         </article>
         <button class="blue-button">
@@ -113,25 +113,28 @@
             <h2 class="contacts-header">Контакти</h2>
                 <div class="contact-info">
                     <img class="contact-icons" src="./src/img/PhoneIcon.png" alt="Іконка телефону"/>
-                    <p>
-                        Якщо у вас виникають питання – телефонуйте за номером 
-                        <em>0-987-654-321</em>
+                    <p class="contact-info-paragraph">
+                        Якщо у вас виникають питання - <br/> телефонуйте за номером 
+                        <br/><em>0-987-654-321</em>
                     </p>
                     <img src="./src/img/TelegramIcon.png" alt="Іконка Телеграм" class="contact-icons"/>
                     <img src="./src/img/WhatsappIcon.png" alt="Іконка WhatsApp" class="contact-icons"/>
+                    <p class="contact-info-paragraph">
+                        Або пишіть нам у чат-бот
+                    </p>
                 </div>
         </article>
         <article class="contact-form">
             <img id="letter-icon" alt="Іконка лист" src="./src/img/MessageImage.png"/>
-            <div class="contact">
+            <div class="form-block">
                 <form>
                     <label for="name-input">
                         Щоб дізнаватися усі новини фестивалю, <br/>
                         підпишися на нашу розсилку
                     </label>
-                    <input type="text" class="contact-input" id="name-input"/>
-                    <input type="email" class="contact-input"/>
-                    <button class="blue-button"></button>
+                    <input type="text" class="contact-input" id="name-input" placeholder="Ім'я"/>
+                    <input type="email" class="contact-input" placeholder="Емейл"/>
+                    <button class="blue-button">Підписатися</button>
                 </form>
             </div>
         </article>

@@ -1,0 +1,290 @@
+/*General style*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: Montserrat;
+    font-size: 18px;
+}
+footer {
+    background-color: #F9FADF;
+}
+/* Text styles */
+.first-screen-header {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 3.5em;
+    letter-spacing: -2%;
+    line-height: 95%;
+}
+.first-screen-description {
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-top: 0.55em;
+}
+.second-screen-header{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    font-size: 3.3em;
+    letter-spacing: -2%;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 0.55em;
+}
+.second-screen-subheader{
+    color: #000000;
+    font-weight: 400;
+    font-size: 1.5em;
+    letter-spacing: 0%;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 0.2em;
+}
+.second-screen-paragraph{
+    color: #73A6B1;
+    font-weight: 400;
+    font-size: 1.1em;
+    letter-spacing: 0%;
+    line-height: 120%;
+    text-align: center;
+}
+.block-header{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    font-size: 2.55em;
+    letter-spacing: -2%;
+    line-height: 120%;
+    text-align: center;
+    text-align: left;
+}
+.block-description{
+    color: #000000;
+    font-weight: 400;
+    font-size: 1.1em;
+    letter-spacing: 0%;
+    line-height: 120%;
+}
+.fourth-screen-paragraph{
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.fiveth-screen-header{
+    font-weight: 400;
+    font-size: 3.33em;
+    line-height: 120%;
+    letter-spacing: -2%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.fiveth-screen-paragraph{
+    color: #73A6B1;
+    font-weight: 400;
+    font-size: 1.1em;
+    letter-spacing: 0%;
+    line-height: 120%;
+    margin-top: 0.83em;
+    text-align: center;
+}
+.our-finance-goal-paragrapgh{
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.number-count{
+    font-size: 3.33em;
+}
+.line-count{
+    color: #9AD2DE;
+    font-size: 3.33em;
+    font-weight: 200;
+}
+.contacts-header{
+    font-weight: 400;
+    font-size: 3.33em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.contact-info-paragraph{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+em{
+    font-weight: 700;
+}
+/* Menu */
+.header-container 
+{
+    display: flex;
+    align-items: center;
+    padding: 2.2em 3.94em; /*40px 71px*/
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    top:0;
+    left:0;
+    right: 0;
+    z-index: 3;
+}
+.menu-list {
+    display: flex;
+    align-items: center;
+} 
+.menu-item {
+    margin-left: 3.11rem;
+}
+/* Buttons */
+.blue-button
+{
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    padding: 1.16em 1.94em;
+    border-radius: 4.83rem;
+    margin-left: 1.3em;
+    border: none;
+    font-family: Montserrat;
+}
+.white-button {
+    background-color: #FFFFFF;
+    margin-top: 0.55em; /* 10px */
+    margin-left: 0em;
+}
+/* Screens */
+.first-screen
+{
+    background-image: url(./img/FirstScreen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1.35em;
+}
+.first-screen-container{
+    margin-left: 5.83em;
+    margin-top: 11.44em;
+}
+.second-screen{
+    width: 100%;
+    height: 78vh; /* online converter 545 px =~ 78vh*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.third-screen{
+    display: flex;
+    align-content: center;
+    padding: 2.22em 3.44em;
+    margin-bottom: 1.5em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.third-screen-block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F1FDFF;
+    padding: 5vh 3vw;
+    margin-bottom: 5vw;
+    border-radius: 10px;
+}
+.flex-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2vh;
+}
+.block-img{
+    width: 38vw;
+    height: 61vh;
+}
+.fourth-screen-description{
+    height: 100vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
+.our-goal{
+    background-color: #F1FDFF;
+    padding: 5em 3.44em;
+    width: 100%;
+    margin: 2em;
+}
+.fourth-screen-bg{
+    z-index: 1;
+    position: absolute;
+    left: 42%;
+    bottom: 30%;
+}
+.fourth-screen-image{
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    bottom: 28%;
+}
+.fiveth-screen{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.live-count{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+.fiveth-screen button {
+    margin: 2.5em 30em;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FADF;
+    padding: 3.3em 1.5em;
+}
+.our-contacts{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+.contact-info{
+    text-align: left;
+}
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    margin: 3em;
+    padding: 4em;
+    width: 84vw;
+    height: 73vh;
+    border-radius: 0.55em;
+}
+.form-block{
+    width: 40%;
+    padding: 1em;   
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-input{
+    background-color: #F9FADF;
+    border: none;
+    border-radius: 3.38em;
+    padding: 1.16em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
