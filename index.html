@@ -8,6 +8,133 @@
     <link rel="stylesheet" href="./src/styles/style.css">
 </head>
 <body>
-    
+    <header class="header-container">
+        <img class="logo" src="./src/img/Logo.png"/>
+        <ul class="menu-list">
+            <li class="menu-item">Контакти</li>
+            <li class="menu-item">Головна</li>
+            <li class="menu-item">З чим працюємо</li>
+            <li class="menu-item blue-button">Підтримати фонд</li>
+        </ul>
+    </header>
+    <section class="first-screen">
+        <article class="first-screen-container">
+            <h1 class="first-screen-header">
+                Фонд підтримки постраждалих від війни
+            </h1>
+            <h3 class="first-screen-description">
+                Ми хочемо допомогти кожному, хто постраждав під час війни
+            </h3>
+            <button class="blue-button white-button">
+                Підтримати фонд
+            </button>
+        </article>
+    </section>
+    <section class="second-screen">
+        <article class="second-screen-text">
+            <h2 class="second-screen-header">
+                Ми – фонд підтримки постраждалих від війни
+            </h2>
+            <h3 class="second-screen-subheader">
+                Наша мета – психологічна та гуманітарна допомога українцям
+            </h3>
+            <p class="second-screen-paragraph">
+                Кожен, хто звернеться, отримає допомогу, яка у наших силах
+            </p>
+        </article>
+    </section>
+    <section class="third-screen">
+        <article class="third-screen-block">
+            <div class="flex-wrapper">
+                <h3 class="block-header">
+                    Реабілітаційний центр
+                </h3>
+                <p clas="block-description">
+                    Ми допомагаємо людям, які постраждали знайти правильне лікування. 
+                    У нашому фонді є чотири напрями: фізичної та реабілітаційної медицини, 
+                    терапевтичне, неврологічне та хірургічне. Ми маємо заклади-партнери, 
+                    де швидко та якісно можуть надати допомогу.
+                </p>
+            </div>
+            <img class="block-img" src="./src/img/Block1.png" alt="Реабілітаційний центр"/>
+        </article>
+        <article class="third-screen-block">
+            <div class="flex-wrapper">
+                <h3 class="block-header">
+                    Робота з дітьми
+                </h3>
+                <p clas="block-description">
+                    Діти – найвразливіша частина суспільства, і їм особливо потрібна підтримка дорослих. 
+                    Тому наш фонд збирає речі для дітей, проводить літні й зимові табори, майстер-класи 
+                    та за потреби – дитячих прсихотерапевтів.
+                </p>
+            </div>
+            <img class="block-img" src="./src/img/Block2.png" alt="Допомога дітям"/>
+        </article>
+        <button class="third-screen blue-button">
+            Дізнатися більше
+        </button>
+    </section>
+    <section class="fourth-screen">
+        <article>
+            <div class="our-goal">
+            <p class="fourth-screen-paragraph">
+                Наша місія – щоб кожен українець мав можливість отримати допомогу 
+                й не залишився наодинці зі своїми проблемами
+            </p>
+            </div>
+            <img class="fourth-screen-image" src="./src/img/Kids-Hug.png" alt = "Допомога українцям"/>
+            <img class="fourth-screen-bg" src="./src/img/SectionBgPattern.png" alt="Задній фон"/>
+        </article>
+    </section>
+    <section class="fiveth-screen">
+        <article class="fiveth-screen-">
+        <h2 class="fiveth-screen-header">Підтримайте нашу роботу</h2>
+        <p class="first-screen-paragraph"> Усі ваші донати йдуть саме на роботу фонду, 
+            заробітні плати ми виплачуємо з коштів грантодавців
+        </p>
+        </article>
+        <article class="our-finance-goal">
+            <p>Наша мета 10 000 000 гривень!</p>
+            <div class="live-count">
+                <p class="number-count">00</p>
+                <p class="line-count">|</p>
+                <p number-count>230</p>
+                <p class="line-count">|</p>
+                <p number-count>025</p>
+            </div>
+        </article>
+        <button class="blue-button">
+            Дізнатися більше
+        </button>
+    </section>
+    <footer>
+        <article class="our-contacts">
+            <h2 class="contacts-header">Контакти</h2>
+                <div class="contact-info">
+                    <img class="contact-icons" src="./src/img/PhoneIcon.png" alt="Іконка телефону"/>
+                    <p>
+                        Якщо у вас виникають питання – телефонуйте за номером 
+                        <em>0-987-654-321</em>
+                    </p>
+                    <img src="./src/img/TelegramIcon.png" alt="Іконка Телеграм" class="contact-icons"/>
+                    <img src="./src/img/WhatsappIcon.png" alt="Іконка WhatsApp" class="contact-icons"/>
+                </div>
+        </article>
+        <article class="contact-form">
+            <img id="letter-icon" alt="Іконка лист" src="./src/img/MessageImage.png"/>
+            <div class="contact">
+                <form>
+                    <label for="name-input">
+                        Щоб дізнаватися усі новини фестивалю, <br/>
+                        підпишися на нашу розсилку
+                    </label>
+                    <input type="text" class="contact-input" id="name-input"/>
+                    <input type="email" class="contact-input"/>
+                    <button class="blue-button"></button>
+                </form>
+            </div>
+        </article>
+    </footer>
 </body>
 </html>
