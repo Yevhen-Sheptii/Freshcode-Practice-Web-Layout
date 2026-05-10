@@ -157,6 +157,12 @@ em{
     margin-top: 0.55em; /* 10px */
     margin-left: 0em;
 }
+.subscribe {
+    margin-left: 0em;
+}
+.more {
+    padding: none;
+}
 /* Screens */
 .first-screen
 {
@@ -244,7 +250,7 @@ em{
     margin-top: 1.5em;
 }
 .fiveth-screen button {
-    margin: 2.5em 30em;
+    margin: 2.5em 40em;
 }
 footer {
     display: flex;
